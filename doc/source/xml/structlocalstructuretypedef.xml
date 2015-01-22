@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structlocalstructuretypedef" kind="struct" prot="public">
+    <compoundname>localstructuretypedef</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlocalstructuretypedef_1acd04bfb1a8221b20d2a12cb44f2c0602" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t localstructuretypedef::localstructurevariable1</definition>
+        <argsstring></argsstring>
+        <name>localstructurevariable1</name>
+        <briefdescription>
+<para>Documentation of the first structure element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/flo/ws_python/doxinabox/examplecode/example.c" line="19" column="1" bodyfile="/home/flo/ws_python/doxinabox/examplecode/example.c" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlocalstructuretypedef_1a1f9e7f5d1ace1fc3796bc51159f4d120" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t localstructuretypedef::localstructurevariable2</definition>
+        <argsstring></argsstring>
+        <name>localstructurevariable2</name>
+        <briefdescription>
+<para>Documentation of the second structure element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/flo/ws_python/doxinabox/examplecode/example.c" line="21" column="1" bodyfile="/home/flo/ws_python/doxinabox/examplecode/example.c" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Documentation of the local structure type definition. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/flo/ws_python/doxinabox/examplecode/example.c" line="17" column="1" bodyfile="/home/flo/ws_python/doxinabox/examplecode/example.c" bodystart="16" bodyend="22"/>
+    <listofallmembers>
+      <member refid="structlocalstructuretypedef_1acd04bfb1a8221b20d2a12cb44f2c0602" prot="public" virt="non-virtual"><scope>localstructuretypedef</scope><name>localstructurevariable1</name></member>
+      <member refid="structlocalstructuretypedef_1a1f9e7f5d1ace1fc3796bc51159f4d120" prot="public" virt="non-virtual"><scope>localstructuretypedef</scope><name>localstructurevariable2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
