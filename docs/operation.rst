@@ -15,12 +15,13 @@ First time setup
 - (Optional) Replace the Sphinx theme "Read the docs" with a theme of your choice [/doc/source/_themes].
 - Modify the Sphinx configuration file conf.py [/doc/source/]: project name, etc. TODO.
 - Generate the .html project documentation with Sphinx. Change into the root directory of the documentation [/doc] and run `make html` (with active virtual enviroment "doxinabox"). The .hmtl documentation is placed in [/doc/build/]. All files in this directory may be deleted before generating the next time.
-- Insert the .html documentation [/doc/build/html] into your project directory. Use index.html [/doc/build/html/index.html] as entry point.
+- Insert the .html documentation [/doc/build/html] into your project directory. Use index.html [/doc/build/html/index.html] as entry point. Visit the current `doxinabox documentation`_ output. The production source code is ducumented in the section "Code documentation/Production code documentation".
 
 .. _git documentation website: http://git-scm.com/doc
 .. _hamingja github project website: https://github.com/fkromer/hamingja
 .. _virtualenv documentation website: http://virtualenv.readthedocs.org/en/latest/index.html#
 .. _virtualenvwrapper documentation website: http://virtualenvwrapper.readthedocs.org/en/latest/index.html
+.. _doxinabox documentation: https://github.com/fkromer/doxinabox/tree/master/doc/build/html
 
 .. _contribution:
 
