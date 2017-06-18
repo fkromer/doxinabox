@@ -27,6 +27,7 @@ build and open the documentation:
     sudo apt install doxygen
     cd doc/ext/doxygen/
     doxygen sphinx
+    cd ../../..
     sphinx-build -b html ./doc/source ./doc/build
     xdg-open ./doc/build/index.html
 

@@ -1,5 +1,9 @@
+# venv (just requirements required)
+venv/doxinabox/*
+!venv/doxinabox/requirements.txt
+
+# doxygen
+doc/source/xml/*
+
 # sphinx
 doc/build/*
-
-# venv (just requirements required)
-!venv/doxinabox/requirements.txt
