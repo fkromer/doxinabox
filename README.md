@@ -2,7 +2,12 @@
 
 A sphinx+breathe+doxygen documentation environment in a virtual python environment for automated documentation of a C/C++ project.
 
-activate and setup the virtual environment:
+create virtualenv (default Ubuntu Python v2.7 is ok):
+
+    sudo apt install virtualenv
+    virtualenv venv/doxinabox/
+
+activate and restore the virtual environment:
 
     source venv/doxinabox/bin/activate
     pip install -r ./venv/doxinabox/requirements.txt
