@@ -1,2 +1,5 @@
-# build folder
+# sphinx
 doc/build/*
+
+# venv (just requirements required)
+!venv/doxinabox/requirements.txt
