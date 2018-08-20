@@ -1,0 +1,26 @@
+sudo: true
+language: python
+python:
+  - "2.7"
+  - "3.6"
+script: tox
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install -y python-sphinx doxygen
+script:
+  - cd doc/ext/doxygen/
+  - doxygen sphinx
+  - cd ../../..
+  - sphinx-build -b html /doc/source /doc/build
+
+language: python
+python:
+  - "2.7"
+
+sudo: false
+cache: pip
+
+install:
+  - pip install -r requirements.txt
+
+script: sphinx-build -b html doc/source doc/build
